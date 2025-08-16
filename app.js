@@ -11,6 +11,7 @@ let latitude= 0.0
 let longitude= 0.0
 
 
+
 input.addEventListener("keyup" , function(event) {
 
     if(event.keyCode ===13 ){
@@ -99,3 +100,4 @@ function displayWeather() {
     descElement.innerHTML=weather.description
     locationElement.innerHTML=`${weather.city}, ${weather.country}`
 }
+
